@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MessageRecieverActivity extends AppCompatActivity {
+public class MessageReceiverActivity extends AppCompatActivity {
 
     public static final String EXTRA_MESSAGE = "message";
     @Override
@@ -15,7 +15,7 @@ public class MessageRecieverActivity extends AppCompatActivity {
         Intent intent;
         intent = getIntent();
         String message = intent.getStringExtra(EXTRA_MESSAGE);
-        TextView textView = findViewById(R.id.recievedText);
+        TextView textView = findViewById(R.id.receivedText);
         textView.setText(message);
     }
 }
