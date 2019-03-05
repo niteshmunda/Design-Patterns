@@ -21,12 +21,23 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sendButtonText"
+        android:text="@string/explicit"
         android:layout_below="@+id/messageText"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"
         android:background="@color/colorAccent"
         android:padding="5dp"
         android:onClick="onButtonClickHandleMe"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit"
+        android:layout_below="@id/messageText"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:onClick="onButtonClickHandleMe2"/>
 
 </RelativeLayout>

@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Messenger</string>
-    <string name="sendButtonText">Send Message</string>
+    <string name="explicit">Explicit Intent</string>
     <string name="messageText" />
     <string name="messageHint">Enter the Message</string>
     <string name="sample_text">sample text</string>
+    <string name="choosertitle">select here</string>
+    <string name="implicit">Implicit Intent</string>
 </resources>

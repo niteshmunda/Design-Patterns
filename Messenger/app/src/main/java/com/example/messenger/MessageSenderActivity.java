@@ -21,5 +21,18 @@ public class MessageSenderActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MessageReceiverActivity.class);
         intent.putExtra(MessageReceiverActivity.EXTRA_MESSAGE,message);
         startActivity(intent);
+
+    }
+
+    public void onButtonClickHandleMe2(View view) {
+        EditText editText = findViewById(R.id.messageText);
+        String message = editText.getText().toString();
+
+        Intent intent  = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT,message);
+        String chooserTitle = getString(R.string.choosertitle);
+        Intent chooserIntent = Intent.createChooser(intent,chooserTitle);
+        startActivity(chooserIntent);
     }
 }
