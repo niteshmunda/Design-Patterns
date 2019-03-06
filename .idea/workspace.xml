@@ -2,49 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00644f8-1b16-455d-9c90-4d3f1a3397dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/androidTest/java/com/example/messenger/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/java/com/example/messenger/MessageRecieverActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/java/com/example/messenger/MessageSenderActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/layout/activity_message_reciever.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/layout/activity_message_sender.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/app/src/test/java/com/example/messenger/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Messenger/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeerExpert/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BeerExpert/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/androidTest/java/com/example/stopwatch/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/java/com/example/stopwatch/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/app/src/test/java/com/example/stopwatch/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stopwatch/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +60,9 @@
     <session id="20919748">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -149,7 +144,7 @@
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3297568" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.3297568" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />

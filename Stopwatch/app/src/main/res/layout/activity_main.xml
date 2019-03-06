@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/time"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="92sp"
+        android:paddingTop="150dp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/timeText"
+        app:layout_constraintLeft_toLeftOf="@id/timeText"
+        android:text="@string/start"
+        android:background="@color/colorPrimary"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:onClick="startCLick"/>
+
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/startButton"
+        app:layout_constraintLeft_toLeftOf="@id/timeText"
+        android:text="@string/pause"
+        android:background="@color/colorPrimary"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:onClick="pauseClick"/>
+
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/pauseButton"
+        app:layout_constraintLeft_toLeftOf="@id/timeText"
+        android:text="@string/restart"
+        android:background="@color/colorAccent"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:onClick="restartCLick"/>
+
+</android.support.constraint.ConstraintLayout>
