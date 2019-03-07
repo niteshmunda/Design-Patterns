@@ -58,5 +58,6 @@
         android:padding="10dp"
         android:layout_marginTop="50dp"
         android:onClick="restartCLick"/>
+    
 
 </android.support.constraint.ConstraintLayout>

@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if(savedInstanceState != null){
+            second = savedInstanceState.getInt("seconds");
+            running = savedInstanceState.getBoolean("running");
+        }
         runtimer();
     }
 
@@ -36,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        outState.putInt("seconds",second);
+        outState.putBoolean("running",running);
+        super.onSaveInstanceState(outState);
     }
 
     public void startCLick(View view) {
