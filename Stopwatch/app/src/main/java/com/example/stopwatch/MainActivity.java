@@ -1,5 +1,7 @@
 package com.example.stopwatch;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,8 +10,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    SharedPreferences sharedPreferences;
     private boolean running;
     private int second = 0;
+    public final String mypreference = "mypref";
+    public final String secondss = "secondsKey";
+    public final String runnings = "runningKey";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
         if(savedInstanceState != null){
             second = savedInstanceState.getInt("seconds");
             running = savedInstanceState.getBoolean("running");
+        }
+        sharedPreferences = getSharedPreferences(mypreference, Context.MODE_PRIVATE);
+        if (sharedPreferences.contains(secondss)){
+            second = sharedPreferences.getInt(secondss,0);
+        }
+        if (sharedPreferences.contains(runnings)){
+            running = sharedPreferences.getBoolean(runnings,true);
         }
         runtimer();
     }
@@ -36,10 +49,13 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(time);
                 if(running)
                     second++;
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.putInt(secondss,second);
+                editor.putBoolean(runnings,running);
+                editor.apply();
                 handler.postDelayed(this,1000);
             }
         });
-
     }
 
     @Override
